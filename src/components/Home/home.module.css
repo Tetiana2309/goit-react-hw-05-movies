@@ -1,0 +1,19 @@
+.movieItem::before {
+    content: "";
+
+    background-size: cover;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -20px;
+    /* fill: #272727; */
+}
+
+.movieItem:hover,
+.movieItem:focus {
+    color: rgb(248, 147, 216);
+    cursor: pointer;
+    transform: translateY(-7px);
+    transition: transform .25s cubic-bezier(.4, 0, .2, 1);
+
+}

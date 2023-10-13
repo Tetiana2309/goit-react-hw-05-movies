@@ -1,0 +1,115 @@
+.img {
+    width: 270px;
+    height: 100%;
+}
+
+.imgWrap {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.descrWrap {
+    display: inline-block;
+    margin-left: 50px;
+    padding-right: 100px;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+    background-color: rgb(125, 32, 102);
+    border-radius: 7px;
+    border: 1px solid rgb(47, 4, 26);
+    margin: 15px 0 0 5px;
+    justify-content: center;
+}
+
+.btn:hover,
+.btn:focus {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+    background-color: rgb(55, 2, 38);
+}
+
+.btn::before {
+    content: '';
+
+    background-size: cover;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 5px;
+
+    top: 10px;
+}
+
+.btnList {
+    list-style: none;
+    display: flex;
+    margin-left: 76px;
+}
+
+.castBtn {
+    position: relative;
+    padding: 9px;
+    background-color: rgb(125, 32, 102);
+    font-size: 16px;
+    border: none;
+    width: 110px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.castBtn::before {
+    content: '';
+    background-image: url(../SVG/user.svg);
+    background-size: cover;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 10px;
+}
+
+.castBtn:hover {
+    background-color: rgb(55, 2, 38);
+    cursor: pointer;
+}
+
+.reviewsBtn {
+    position: relative;
+    padding: 9px 9px 9px 25px;
+    background-color: rgb(125, 32, 102);
+    font-size: 16px;
+    width: 110px;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+
+.reviewsBtn::before {
+    content: '';
+    background-image: url(../SVG/book-alt2.svg);
+    background-size: cover;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 10px;
+    top: 10px;
+}
+
+.reviewsBtn:hover {
+    background-color: rgb(55, 2, 38);
+    cursor: pointer;
+}
+
+.descrTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
